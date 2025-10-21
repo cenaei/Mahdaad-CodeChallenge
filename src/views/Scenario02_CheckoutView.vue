@@ -1,6 +1,6 @@
 <template>
+  <div class="my-6">Scenario 02 - Checkout</div>
   <Header />
-  <div>Scenario 02 - Checkout</div>
 </template>
 <script setup>
 import Header from "@/components/Scenario02/header.vue";

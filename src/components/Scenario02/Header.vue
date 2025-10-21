@@ -6,7 +6,7 @@
           class="bg-gray-300 px-4 py-2 rounded-2xl"
           active-class="text-blue-800 rounded-3xl transition"
           to="/sce02/"
-          >Producs</RouterLink
+          >products</RouterLink
         >
         <RouterLink
           class="bg-gray-300 px-4 py-2 rounded-2xl"

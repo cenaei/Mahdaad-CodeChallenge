@@ -21,7 +21,7 @@ const router = createRouter({
     {
       path: "/sce02",
       children: [
-        { path: "", name:"producs", component: Scenario02View },
+        { path: "", name:"products", component: Scenario02View },
         { path: "checkout", name:"checkout", component: Scenario02_CheckoutView },
         { path: "cart", name:"cart", component: Scenario02_CartView },
       ],
