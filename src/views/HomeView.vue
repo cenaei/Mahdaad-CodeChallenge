@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <div>
+      <h1 class="text-sm">check tailwindcss</h1>
+      <h3 class="text-sm">You’ve successfully created a project with</h3>
+    </div>
   </main>
 </template>
