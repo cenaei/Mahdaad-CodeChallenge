@@ -7,6 +7,7 @@ import Scenario02_CartView from "../views/Scenario02_CartView.vue";
 import Scenario02_AnalysisView from "../views/Scenario02_AnalysisView.vue";
 import Scenario03View from "../views/Scenario03View.vue";
 import Scenario04View from "../views/Scenario04View.vue";
+import Scenario05View from "../views/Scenario05View.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,6 +40,11 @@ const router = createRouter({
       path: "/sce04",
       name: "Scenario04",
       component: Scenario04View,
+    },
+    {
+      path: "/sce05",
+      name: "Scenario05",
+      component: Scenario05View,
     },
   ],
 });
