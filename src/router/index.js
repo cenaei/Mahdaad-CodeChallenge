@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import Scenario01View from "../views/Scenario01View.vue";
 import Scenario02View from "../views/Scenario02View.vue";
+import Scenario01View from "../views/Scenario01View.vue";
 import Scenario02_CheckoutView from "../views/Scenario02_CheckoutView.vue";
 import Scenario02_CartView from "../views/Scenario02_CartView.vue";
 import Scenario02_AnalysisView from "../views/Scenario02_AnalysisView.vue";
+import Scenario03View from "../views/Scenario03View.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,11 @@ const router = createRouter({
         { path: "cart", name:"Cart", component: Scenario02_CartView },
         { path: "analysis", name:"Analysis", component: Scenario02_AnalysisView },
       ],
+    },
+    {
+      path: "/sce03",
+      name: "Scenario03",
+      component: Scenario03View,
     },
   ],
 });
