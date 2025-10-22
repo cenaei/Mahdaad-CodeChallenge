@@ -14,7 +14,9 @@
     </li>
   </ul>
 
-  <!-- <pre>{{ StockStore.data }}</pre> -->
+  <!-- <pre>isLoading: {{ StockStore.isLoading }}</pre>
+  <pre>error: {{ StockStore.error }}</pre>
+  <pre>data: {{ StockStore.data }}</pre> -->
 </template>
 
 <script setup>
