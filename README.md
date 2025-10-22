@@ -142,8 +142,8 @@ Item 3 grows dynamically while others maintain consistent sizing.
 
 ## 👨‍💻 Author
 
-**Developer:** Sina Sani  
-**GitHub:** [@SinaSani](https://github.com/SinaSani)  
+**Developer:** Sina   
+**GitHub:** [@Sina](https://github.com/cenaei)  
 **Project:** Mahdaad Front-End Problem Solving — Vue 3 + Tailwind CSS
 
 ---
