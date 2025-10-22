@@ -1,7 +1,3 @@
-<script setup>
-import { RouterLink, RouterView } from "vue-router";
-</script>
-
 <template>
   <header>
     <div class="mb-2">
@@ -9,26 +5,34 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink
           class="bg-gray-300 px-4 py-2 rounded-2xl"
           active-class="text-blue-800 rounded-3xl transition"
-          to="/"
-          >Home</RouterLink
+          to="/sce02/"
+          >products</RouterLink
         >
         <RouterLink
           class="bg-gray-300 px-4 py-2 rounded-2xl"
           active-class="text-blue-800 rounded-3xl transition"
-          to="/sce01"
-          >Scenario 01</RouterLink
+          to="/sce02/checkout"
+          >Checkout</RouterLink
         >
         <RouterLink
           class="bg-gray-300 px-4 py-2 rounded-2xl"
           active-class="text-blue-800 rounded-3xl transition"
-          to="/sce02"
-          >Scenario 02</RouterLink
+          to="/sce02/cart"
+          >Cart</RouterLink
+        >
+        <RouterLink
+          class="bg-gray-300 px-4 py-2 rounded-2xl"
+          active-class="text-blue-800 rounded-3xl transition"
+          to="/sce02/analysis"
+          >Analysis</RouterLink
         >
       </nav>
     </div>
   </header>
-
-  <RouterView />
 </template>
 
-<style scoped></style>
+<script setup>
+//
+</script>
+
+<style lang="scss" scoped></style>
