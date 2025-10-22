@@ -26,5 +26,14 @@ export const useDataStore = defineStore("data", () => {
     { customerId: 1, productId: 104, date: "2025-02-10" },
   ];
 
-  return { customers, products, purchases };
+  const purchasedByCustomer = computed(() =>
+    customers.value.map((c) => ({
+      ...c,
+      products: purchases.value
+        .filter((p) => p.customerId == c.id)
+        .map((p) => products.value.find((prod) => prod.id === p.productId)),
+    }))
+  );
+
+  return { customers, products, purchases, purchasedByCustomer };
 });
