@@ -48,6 +48,12 @@ import { RouterLink, RouterView } from "vue-router";
           to="/sce06"
           >Scenario 06</RouterLink
         >
+        <RouterLink
+          class="bg-gray-300 px-4 py-2 rounded-2xl"
+          active-class="text-blue-800 rounded-3xl transition"
+          to="/sce07"
+          >Scenario 07</RouterLink
+        >
       </nav>
     </div>
   </header>
